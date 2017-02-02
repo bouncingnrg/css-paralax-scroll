@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+  color: #fff;
+  }
+
+ul {
+  background-color: #262228;
+  margin:0;
+	padding:0;
+  list-style-type: none;  
+}
+
+li {
+	display:inline-block;
+  width: 20%;
+}
+
+li a {
+	display:inline-block;
+	width:140px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	background: #262228;
+	text-decoration: none;
+}
+
+li:hover a {
+	background: #304878;
+}
+
+.hero-image{
+ width:100%;
+  }
+
+.overview{
+  background-color: #262228;
+}
+
+.brief_history{
+  background-color: #304878;
+}
+
+.overview, .brief_history{
+  display: inline-block;
+  padding-top: 2vh;
+  padding-left: 10vw;
+  padding-right: 10vw; 
+  padding-bottom: 2vh;
+}
+
+.box {
+  background-color: #7890A8;
+}
+
+.boxs {
+  display: inline-block;
+  }
+
+.box1 {
+  background-image: url("http://lh6.ggpht.com/HlgucZ0ylJAfZgusynnUwxNIgIp5htNhShF559x3dRXiuy_UdP3UQVLYW6c=s1200");
+  }
+
+.box2 {
+  background-image: url("http://lh5.ggpht.com/Go9QucSIS0OASfQar5o3ziLZFJfpbzoEURXvSL2vpu9B8yvvarl7qhrZQKs=s1200");
+}
+
+.box3 {
+  background-image: url("http://www.vangogh.net/images/paintings/the-night-cafe.jpg");
+  }
+
+.box4 {
+  background-image: url("http://lh4.ggpht.com/UfcTswVh-R6nxflMKl5Y-UKznxIO-5HGUUBRBklj1rk95-9ba5sV7ZD33EA7=s1200");
+  }
+
+.box5 {
+  background-image: url("http://lh4.ggpht.com/-pHGt320hO0K5OIfpubiAXj7aySEdZWqRBh3bJZGAr87gJ3rpXMi-0UJgvTi=s1200");
+}
+
+.box6 {
+  background-image: url("http://lh6.ggpht.com/Xre4KcXyVP2H5GFHqwYchBMLM1ok0GEHwGUTerCJYnELzedZ1VBz_8g8S6_e=s1200");
+  }
+
+/* hover functions below here */
+
+
+/* media quaries below here */
+
+@media all and (min-width: 960px) {
+    body{
+        font-size: 18px;
+        }
+    .box {
+          padding-top: 2vh;
+          padding-bottom: 2vh;
+          }
+    .boxs {
+        width:32%;
+        height:32vw;
+        }  
+    .box4, .box5, .box6{
+        margin-top: 2vh;
+        }
+  }
+ 
+@media all and (max-width: 959px) and (min-width: 600px) {
+    body{
+        font-size: 16px;
+        }
+    .box {
+          margin-top: 2vh;
+          margin-bottom: 2vh;
+          }
+    .boxs{
+        width:48%;
+        height:48vw;
+        }
+    .box3, .box4, .box5, .box6{
+        margin-top: 2vh;
+        }
+  	 }
+ 
+@media all and (max-width: 599px) {
+    body{
+        font-size: 12px;
+        }
+    .box {
+          margin-top: 1vh;
+          margin-bottom: 1vh;
+          }
+    .boxs{
+        width:99%;
+        height:30vw;
+        }
+    .box2, .box3, .box4, .box5, .box6{
+        margin-top: 1vh;
+        }
+    li {
+		margin-bottom: 1px;
+    
+	}
+	/*Make all menu links full width*/
+	ul li, li a {
+		width: 100%;
+    	}
+ }
